@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #23263b;
+}
+
+.day{
+    background-color: #e0e2e6;
+    transition: .5s;
+}
+
+.night{
+    background-color: #23263b;
+    transition: .5s;
+}
+
+#contain {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.style {
+  font-family: 'Raleway', sans-serif;
+  font-size: 30px;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border-radius: 19px;
+  margin-top: 6%;
+}
+
+.off {
+  border: 2px #474b66 solid;
+  background-color: #23263b;
+  color: #474b66;
+}
+
+.on {
+  border: 2px #474b66 solid;
+  background-color: #e0e2e6;
+  color: #474b66;
+}
+
+button:focus {
+    outline:0;
+}
+
+button{
+    transition:.5s;
+}
+
+button:hover {
+cursor: pointer;
+background-color: 	#acd6e9;
+}
+
+#love{
+      font-size: 14px;
+}
+
+span {
+  font-family: "Roboto", sans-serif;
+  color: #474b66;
+  display: block;
+  position: absolute;
+  width: 50%;
+  left: 50%;
+  top: 85%;
+  bottom: -20px;;
+  right: auto;
+  transform: translateX(-50%) translateY(-50%);
+  text-align: center;
+}
+span a { 
+  color: #474b66;
+  text-decoration: none;
+  transition: .38s;
+}
+
+span a:hover {
+    color: #acd6e9;
+}
+
+span .fa {
+  font-family: "Roboto", sans-serif;
+  color: #E90606;
+  margin: 0 3px;
+  font-size: 16px;
+}
+
+img {
+  position: absolute;
+  bottom: 10px;
+  width: 150px;;
+  left: 50%;
+  top: 20%;
+  transform: translateX(-50%) translateY(-50%);
+}
